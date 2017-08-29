@@ -1,0 +1,21 @@
+{
+  "name": "AL",
+  "author": [
+    {
+      "name": "author name",
+      "email": "name@t.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.0",
+    "smarty/smarty": "~3.1"
+  },
+  "require-dev": {
+    "smarty/smarty": "~3.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "application\\": "application/"
+    }
+  }
+}
